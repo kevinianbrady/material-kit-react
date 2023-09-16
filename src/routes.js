@@ -265,9 +265,9 @@ const routes = [
     ],
   },
   {
-    name: "github",
+    name: "Hafele Practice",
     icon: <GitHubIcon />,
-    href: "https://www.github.com/creativetimofficial/material-kit-react",
+    href: "https://www.hafelestreet.co.za/",
   },
 ];
 
