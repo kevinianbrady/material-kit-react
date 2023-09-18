@@ -59,6 +59,11 @@ export default {
     focus: "#1662C4",
   },
 
+  leaf: {
+    main: "#2e5939",
+    focus: "##488759",
+  },
+
   success: {
     main: "#4CAF50",
     focus: "#67bb6a",
@@ -110,6 +115,11 @@ export default {
     info: {
       main: "#49a3f1",
       state: "#1A73E8",
+    },
+
+    leaf: {
+      main: "#2e5939",
+      state: "##488759",
     },
 
     success: {
@@ -216,6 +226,11 @@ export default {
       text: "#095bc6",
     },
 
+    leaf: {
+      background: "#2e5939",
+      text: "##488759",
+    },
+
     success: {
       background: "#bce2be",
       text: "#339537",
@@ -246,6 +261,7 @@ export default {
     primary: "#e91e62",
     secondary: "#110e0e",
     info: "#00bbd4",
+    leaf: "#488759",
     success: "#4caf4f",
     warning: "#ff9900",
     error: "#f44336",
