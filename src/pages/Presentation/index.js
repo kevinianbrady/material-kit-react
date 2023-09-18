@@ -31,10 +31,10 @@ import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 // Presentation page sections
 import Counters from "pages/Presentation/sections/Counters";
 import Information from "pages/Presentation/sections/Information";
-import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
-import Pages from "pages/Presentation/sections/Pages";
-import Testimonials from "pages/Presentation/sections/Testimonials";
-import Download from "pages/Presentation/sections/Download";
+// import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
+// import Pages from "pages/Presentation/sections/Pages";
+// import Testimonials from "pages/Presentation/sections/Testimonials";
+// import Download from "pages/Presentation/sections/Download";
 
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
@@ -44,7 +44,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation-ah.jpeg";
+import bgImage from "assets/images/bg-presentation-ah3.jpeg";
 
 function Presentation() {
   return (
@@ -74,8 +74,8 @@ function Presentation() {
           <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
             <MKTypography
               variant="h1"
-              color="black"
-              mt={-6}
+              color="secondary"
+              mt={30}
               mb={1}
               sx={({ breakpoints, typography: { size } }) => ({
                 [breakpoints.down("md")]: {
@@ -87,7 +87,7 @@ function Presentation() {
             </MKTypography>
             <MKTypography
               variant="body1"
-              color="black"
+              color="secondary"
               textAlign="center"
               px={{ xs: 6, lg: 12 }}
               mt={1}
@@ -110,8 +110,8 @@ function Presentation() {
       >
         <Counters />
         <Information />
-        <DesignBlocks />
-        <Pages />
+        {/* <DesignBlocks /> */}
+        {/* <Pages /> */}
         <Container sx={{ mt: 6 }}>
           <BuiltByDevelopers />
         </Container>
@@ -159,8 +159,8 @@ function Presentation() {
             </Grid>
           </Grid>
         </Container>
-        <Testimonials />
-        <Download />
+        {/* <Testimonials /> */}
+        {/* <Download /> */}
         <MKBox pt={18} pb={6}>
           <Container>
             <Grid container spacing={3}>
