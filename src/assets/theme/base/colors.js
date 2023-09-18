@@ -61,7 +61,7 @@ export default {
 
   leaf: {
     main: "#2e5939",
-    focus: "##488759",
+    focus: "#23472b",
   },
 
   success: {
@@ -118,8 +118,8 @@ export default {
     },
 
     leaf: {
-      main: "#2e5939",
-      state: "##488759",
+      main: "#6dbd85",
+      state: "#499e58",
     },
 
     success: {
@@ -227,8 +227,8 @@ export default {
     },
 
     leaf: {
-      background: "#2e5939",
-      text: "##488759",
+      background: "#b8e2c1", // Light and less saturated green
+      text: "#357a4f", // Darker and more saturated green
     },
 
     success: {
@@ -261,7 +261,7 @@ export default {
     primary: "#e91e62",
     secondary: "#110e0e",
     info: "#00bbd4",
-    leaf: "#488759",
+    leaf: "#2e8a57",
     success: "#4caf4f",
     warning: "#ff9900",
     error: "#f44336",
